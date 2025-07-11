@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# superstitious loop
+
+i=1
+
+while [ $i -lt 21 ]; do
+	case $i in
+	4)
+		echo $i
+		echo "bad luck from china"
+		;;
+	9)
+		echo $i
+		echo "bad luck from japan"
+		;;
+	17)
+		echo $i
+		echo "bad luck fron italy"
+		;;
+		echo "$i"
+		;;
+	esae
+		((i++))
+done
