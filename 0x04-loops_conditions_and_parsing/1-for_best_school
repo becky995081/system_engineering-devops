@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# great doing this work
+
+for i in (seq1-10);do
+	echo "Best School"
+done
